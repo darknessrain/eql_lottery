@@ -1,0 +1,258 @@
+
+.optinbg{
+/*
+  height: 50em;
+  background-size:contain;
+  background-image: url('../images/Oot-in-page_Cave_booksstore_campaign_pc.png');
+  background-repeat: no-repeat;
+  padding-top: 10em;
+*/
+}
+
+
+
+.mc-field-group{
+  color:white;
+}
+
+.mainpic{
+    margin-top: -2em;
+    max-height: 700px;
+
+}
+
+.smallpic{
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+
+
+
+.titlecss {
+  color:white;
+  height: 3em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.indicates-required{
+	color: red;
+}
+
+.asterisk{
+		color: red;
+}
+
+.ipt_fom_css{
+  height: 20px;
+
+}
+
+
+.btn{
+
+	background: transparent;
+	color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  font-size: 17px;
+  padding: 7px 12px;
+  font-weight: normal;
+  margin: 6px 0;
+  margin-right: 12px;
+  display: inline-block;
+  text-decoration: none;
+  width:15em;
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+  border-radius: 5px;
+
+}
+
+.inputarea_css{
+
+  position: absolute;
+  text-align: center;
+
+  color: white;
+  left:50%;
+  margin-top: -15em;
+
+
+
+}
+
+input {
+  color:rgba(73, 73, 73, 0.87);
+}
+
+
+html, body {
+	font-family:Helvetica, sans-serif, Arial, 'LiHei Pro', '微軟正黑體','æ–°ç´°æ˜Žé«”';
+  background-color: rgba(152, 220, 254, 0.74);
+  z-index:-2;
+}
+
+@media (max-width: 712px) {
+  /*開啟Lead Magnet小圖，關閉Lead Magnet大圖*/
+
+  .mainpic{
+      display:none;
+
+
+  }
+
+  .smallpic{
+    display: block;
+    margin-left: 1.6em;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+
+  }
+
+  .titlecss{
+    display:none;
+  }
+
+  .inputarea_css{
+
+    position: absolute;
+    text-align: center;
+
+    color: white;
+    left:30%;
+    margin-top: -19em;
+
+  }
+
+
+}
+
+@media (max-width: 475px) {
+  /*手機版面調整*/
+  .mainpic{
+      display:none;
+
+
+  }
+
+  .smallpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 100%;
+    height: auto;
+
+  }
+
+  .titlecss{
+    display:none;
+  }
+
+  .inputarea_css{
+
+    position: absolute;
+    text-align: center;
+
+    color: white;
+    left:20%;
+    margin-top: -16em;
+
+  }
+
+  .button{
+    width:13.2em;
+  }
+
+}
+
+
+
+
+@media (max-width: 415px) {
+  /*手機版面調整*/
+  .mainpic{
+      display:none;
+
+
+  }
+
+  .smallpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 100%;
+    height: auto;
+
+  }
+
+  .titlecss{
+    display:none;
+  }
+
+  .inputarea_css{
+
+    position: absolute;
+    text-align: center;
+
+    color: white;
+    left:20%;
+    margin-top: -15em;
+
+  }
+
+  .button{
+    width:13.2em;
+  }
+
+}
+
+@media (max-width: 351px) {
+  /*手機版面調整*/
+  .mainpic{
+      display:none;
+
+
+  }
+
+  .smallpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 100%;
+    height: auto;
+
+  }
+
+  .titlecss{
+    display:none;
+  }
+
+  .inputarea_css{
+
+    position: absolute;
+    text-align: center;
+
+    color: white;
+    left:10%;
+    margin-top: -13.5em;
+
+  }
+
+  .button{
+    width:13em;
+  }
+
+}
